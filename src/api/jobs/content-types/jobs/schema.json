@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job",
+  "info": {
+    "singularName": "jobs",
+    "pluralName": "job",
+    "displayName": "Jobs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "blocks"
+    },
+    "key_responsibilities": {
+      "type": "blocks"
+    },
+    "job_requirements": {
+      "type": "blocks"
+    }
+  }
+}
